@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import ioClient, { io } from 'socket.io-client';
+import ioClient from 'socket.io-client';
 
 import { Message } from './Message';
 
